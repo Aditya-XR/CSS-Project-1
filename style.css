@@ -1,0 +1,90 @@
+div {
+    width: 50%;
+    margin-bottom: 40px;
+    position: relative;
+    left: 1%;
+}
+
+body {
+    background-color: #f4f3ef;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.logo {
+    width: 50%;
+    height: 50px;
+}
+
+.imgPara1 {
+    float: left;
+
+}
+
+.imgPara2 {
+    float: right;
+
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.roboto h1 span {
+    color: rgb(19, 19, 131);
+}
+
+.roboto h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+    /* Adjust this value as needed */
+    margin-top: 0;
+}
+
+img {
+    float: left;
+}
+
+.imgPara1 img,
+.imgPara2 img {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+
+    .imgPara1 img,
+    .imgPara2 img {
+        float: left;
+        margin-right: 30px;
+        /* Increased margin for better separation */
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .imgPara1 {
+        float: none;
+    }
+
+    .imgPara2 {
+        float: none;
+    }
+
+    .logo {
+        width: 100%;
+        height: 50px;
+
+    }
+    .roboto h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    /* Adjust this value as needed */
+    margin-top: 0;
+}
+}
